@@ -30,7 +30,7 @@ func main() {
 		fmt.Println("3. Delete Task")
 		fmt.Println("4. Mark Task as Done")
 		fmt.Println("5. Exit")
-		fmt.Print("Choose an option: ")
+		fmt.Print("Tell us what you want to do by choosing an option: ")
 
 		if !scanner.Scan() {
 			break
