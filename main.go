@@ -24,7 +24,7 @@ func main() {
 
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
-		fmt.Println("\nWELCOME TO YOUR DAILY PLANNER")
+		fmt.Println("\n\nWELCOME TO YOUR DAILY PLANNER")
 		fmt.Println("1. Add Task")
 		fmt.Println("2. List Tasks")
 		fmt.Println("3. Delete Task")
